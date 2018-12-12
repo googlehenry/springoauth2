@@ -1,0 +1,12 @@
+spring:
+   application:
+    name: productservice
+    
+server:
+  port: 8080
+ 
+security:
+ oauth2:
+  resource:
+   serviceId: ${PREFIX:}resource
+   filter-order: 3
